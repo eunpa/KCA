@@ -1484,16 +1484,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GgVOCvzmsoLjwdd3ujKb-29" value="모델 학습 서버" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="560" width="120" height="240" as="geometry" />
+          <mxGeometry x="1000" y="560" width="140" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="GgVOCvzmsoLjwdd3ujKb-1" value="G-Search (ELK클러스터)" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="GgVOCvzmsoLjwdd3ujKb-1" value="G-Search (ELK클러스터)" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
           <mxGeometry x="480" y="190" width="440" height="140" as="geometry" />
         </mxCell>
         <mxCell id="GgVOCvzmsoLjwdd3ujKb-2" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="T84qUwB0H3TJ_VDfNJk0-2" target="GgVOCvzmsoLjwdd3ujKb-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GgVOCvzmsoLjwdd3ujKb-3" value="데이터 수집/변환 서버" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="190" width="120" height="340" as="geometry" />
+          <mxGeometry x="1000" y="190" width="140" height="340" as="geometry" />
         </mxCell>
         <mxCell id="T84qUwB0H3TJ_VDfNJk0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GgVOCvzmsoLjwdd3ujKb-4" target="GgVOCvzmsoLjwdd3ujKb-15">
           <mxGeometry relative="1" as="geometry" />
@@ -1531,19 +1531,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GgVOCvzmsoLjwdd3ujKb-15" value="데이터 레이크" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="480" y="380" width="440" height="140" as="geometry" />
+          <mxGeometry x="480" y="340" width="440" height="260" as="geometry" />
         </mxCell>
         <mxCell id="GgVOCvzmsoLjwdd3ujKb-16" value="학습데이터셋" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.data_lake_resource_icon;" vertex="1" parent="1">
-          <mxGeometry x="810" y="420" width="60" height="60" as="geometry" />
+          <mxGeometry x="810" y="380" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GgVOCvzmsoLjwdd3ujKb-17" value="수집 데이터" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.data_lake_resource_icon;" vertex="1" parent="1">
-          <mxGeometry x="730" y="420" width="60" height="60" as="geometry" />
+          <mxGeometry x="730" y="380" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GgVOCvzmsoLjwdd3ujKb-19" value="법령 데이터" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.data_lake_resource_icon;" vertex="1" parent="1">
-          <mxGeometry x="650" y="420" width="60" height="60" as="geometry" />
+          <mxGeometry x="650" y="380" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GgVOCvzmsoLjwdd3ujKb-23" value="소비자원 데이터" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.data_lake_resource_icon;" vertex="1" parent="1">
-          <mxGeometry x="560" y="420" width="60" height="60" as="geometry" />
+          <mxGeometry x="560" y="380" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GgVOCvzmsoLjwdd3ujKb-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GgVOCvzmsoLjwdd3ujKb-7" target="GgVOCvzmsoLjwdd3ujKb-10">
           <mxGeometry relative="1" as="geometry" />
@@ -1572,7 +1572,7 @@
         <mxCell id="GgVOCvzmsoLjwdd3ujKb-34" value="AI Agent Builder" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.server_rack;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="300" y="230" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GgVOCvzmsoLjwdd3ujKb-35" value="내외부 연동 서버" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.server_rack;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="GgVOCvzmsoLjwdd3ujKb-35" value="내/외부 연동 서버" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.server_rack;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="300" y="700" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T84qUwB0H3TJ_VDfNJk0-2" value="지식 변환 Worker" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#CCCCCC;shape=mxgraph.azure.server_rack;fontStyle=1" vertex="1" parent="1">
@@ -1585,16 +1585,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T84qUwB0H3TJ_VDfNJk0-7" value="LLM&amp;nbsp; 모델 서빙" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="480" y="563" width="440" height="140" as="geometry" />
+          <mxGeometry x="480" y="610" width="440" height="140" as="geometry" />
         </mxCell>
         <mxCell id="T84qUwB0H3TJ_VDfNJk0-9" value="사건보고서 모델" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#01A88D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sagemaker_model;" vertex="1" parent="1">
-          <mxGeometry x="561" y="603.5" width="59" height="59" as="geometry" />
+          <mxGeometry x="561" y="650.5" width="59" height="59" as="geometry" />
         </mxCell>
         <mxCell id="T84qUwB0H3TJ_VDfNJk0-10" value="조정결정서 모델" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#01A88D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sagemaker_model;" vertex="1" parent="1">
-          <mxGeometry x="677" y="603.5" width="59" height="59" as="geometry" />
+          <mxGeometry x="677" y="650.5" width="59" height="59" as="geometry" />
         </mxCell>
         <mxCell id="T84qUwB0H3TJ_VDfNJk0-11" value="법령가이드 모델" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#01A88D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sagemaker_model;" vertex="1" parent="1">
-          <mxGeometry x="791" y="603.5" width="59" height="59" as="geometry" />
+          <mxGeometry x="791" y="650.5" width="59" height="59" as="geometry" />
         </mxCell>
         <mxCell id="T84qUwB0H3TJ_VDfNJk0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;exitPerimeter=0;" edge="1" parent="1" source="GgVOCvzmsoLjwdd3ujKb-5" target="GgVOCvzmsoLjwdd3ujKb-15">
           <mxGeometry relative="1" as="geometry" />
@@ -1614,26 +1614,38 @@
         <mxCell id="T84qUwB0H3TJ_VDfNJk0-17" value="소비자상담 지식" style="shape=datastore;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="840" y="230" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="T84qUwB0H3TJ_VDfNJk0-22" value="AI 분쟁조정사건처리 지원 시스템" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="110" width="320" height="720" as="geometry" />
+        <mxCell id="T84qUwB0H3TJ_VDfNJk0-22" value="AI 분쟁조정사건처리&amp;nbsp;&lt;div&gt;지원 시스템&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="110" width="220" height="720" as="geometry" />
         </mxCell>
         <mxCell id="T84qUwB0H3TJ_VDfNJk0-23" value="분쟁조정사건처리 지원 시스템" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#d6b656;fillColor=#fff2cc;shape=mxgraph.azure.server_rack;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="230" width="60" height="60" as="geometry" />
+          <mxGeometry x="70" y="230" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T84qUwB0H3TJ_VDfNJk0-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T84qUwB0H3TJ_VDfNJk0-24" target="T84qUwB0H3TJ_VDfNJk0-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T84qUwB0H3TJ_VDfNJk0-24" value="Front" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#d6b656;fillColor=#fff2cc;shape=mxgraph.azure.server_rack;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="30" y="510" width="60" height="60" as="geometry" />
+          <mxGeometry x="70" y="510" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T84qUwB0H3TJ_VDfNJk0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="T84qUwB0H3TJ_VDfNJk0-23" target="GgVOCvzmsoLjwdd3ujKb-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T84qUwB0H3TJ_VDfNJk0-27" value="사용자" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="1">
-          <mxGeometry x="-148" y="525" width="30" height="30" as="geometry" />
+          <mxGeometry x="-108" y="525" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T84qUwB0H3TJ_VDfNJk0-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="T84qUwB0H3TJ_VDfNJk0-27" target="T84qUwB0H3TJ_VDfNJk0-24">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T84qUwB0H3TJ_VDfNJk0-32" value="조정 결성저" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.backup_compliance_reporting;" vertex="1" parent="1">
+          <mxGeometry x="555.03" y="490" width="54.97" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="T84qUwB0H3TJ_VDfNJk0-33" value="사건 보고서" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.quicksight_paginated_reports;" vertex="1" parent="1">
+          <mxGeometry x="650" y="490" width="52" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="T84qUwB0H3TJ_VDfNJk0-34" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://www.gnoti.com/wp-content/uploads/2023/05/gnoti-logo_white.png;imageBackground=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="819.51" y="200" width="90.98" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T84qUwB0H3TJ_VDfNJk0-35" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS34ywqoFiWfCgmD8928vMB3TmfHI9-rx4nzA&amp;s;" vertex="1" parent="1">
+          <mxGeometry x="1146" y="550" width="60.11" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
