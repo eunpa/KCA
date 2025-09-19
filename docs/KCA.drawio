@@ -1477,6 +1477,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="T84qUwB0H3TJ_VDfNJk0-43" value="내부 시스템" style="whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;verticalAlign=top;align=right;" vertex="1" parent="1">
+          <mxGeometry x="240" y="860.75" width="180" height="180" as="geometry" />
+        </mxCell>
         <mxCell id="GgVOCvzmsoLjwdd3ujKb-38" value="AI 분쟁조정사건처리 지원 시스템" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="240" y="110" width="1230" height="720" as="geometry" />
         </mxCell>
@@ -1500,6 +1503,15 @@
         </mxCell>
         <mxCell id="GgVOCvzmsoLjwdd3ujKb-4" value="학습데이터셋 Worker" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#CCCCCC;shape=mxgraph.azure.server_rack;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1040" y="330" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T84qUwB0H3TJ_VDfNJk0-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GgVOCvzmsoLjwdd3ujKb-5" target="T84qUwB0H3TJ_VDfNJk0-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="575" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1070" y="550" />
+              <mxPoint x="1295" y="550" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="GgVOCvzmsoLjwdd3ujKb-5" value="법령데이터 수집" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#CCCCCC;shape=mxgraph.azure.server_rack;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1040" y="430" width="60" height="60" as="geometry" />
@@ -1572,6 +1584,17 @@
         <mxCell id="GgVOCvzmsoLjwdd3ujKb-34" value="AI Agent Builder" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.server_rack;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="300" y="230" width="60" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="T84qUwB0H3TJ_VDfNJk0-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GgVOCvzmsoLjwdd3ujKb-35" target="T84qUwB0H3TJ_VDfNJk0-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T84qUwB0H3TJ_VDfNJk0-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="GgVOCvzmsoLjwdd3ujKb-35" target="T84qUwB0H3TJ_VDfNJk0-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="730" />
+              <mxPoint x="440" y="914" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GgVOCvzmsoLjwdd3ujKb-35" value="내/외부 연동 서버" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.server_rack;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="300" y="700" width="60" height="60" as="geometry" />
         </mxCell>
@@ -1615,7 +1638,7 @@
           <mxGeometry x="840" y="230" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="T84qUwB0H3TJ_VDfNJk0-22" value="AI 분쟁조정사건처리&amp;nbsp;&lt;div&gt;지원 시스템&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="110" width="220" height="720" as="geometry" />
+          <mxGeometry y="110" width="200" height="720" as="geometry" />
         </mxCell>
         <mxCell id="T84qUwB0H3TJ_VDfNJk0-23" value="분쟁조정사건처리 지원 시스템" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#d6b656;fillColor=#fff2cc;shape=mxgraph.azure.server_rack;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="230" width="60" height="60" as="geometry" />
@@ -1630,7 +1653,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T84qUwB0H3TJ_VDfNJk0-27" value="사용자" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="1">
-          <mxGeometry x="-108" y="525" width="30" height="30" as="geometry" />
+          <mxGeometry x="-103" y="517" width="48" height="45" as="geometry" />
         </mxCell>
         <mxCell id="T84qUwB0H3TJ_VDfNJk0-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="T84qUwB0H3TJ_VDfNJk0-27" target="T84qUwB0H3TJ_VDfNJk0-24">
           <mxGeometry relative="1" as="geometry" />
@@ -1645,7 +1668,13 @@
           <mxGeometry x="819.51" y="200" width="90.98" height="20" as="geometry" />
         </mxCell>
         <mxCell id="T84qUwB0H3TJ_VDfNJk0-35" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS34ywqoFiWfCgmD8928vMB3TmfHI9-rx4nzA&amp;s;" vertex="1" parent="1">
-          <mxGeometry x="1146" y="550" width="60.11" height="40" as="geometry" />
+          <mxGeometry x="1146" y="610" width="60.11" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T84qUwB0H3TJ_VDfNJk0-38" value="사업자&lt;div&gt;정보&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="300" y="917" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T84qUwB0H3TJ_VDfNJk0-42" value="인터넷" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="870" width="80" height="61.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
