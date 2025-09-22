@@ -1974,9 +1974,6 @@
         <mxCell id="JCc4b1N-MqKZgjGnVyGB-3" value="&lt;span&gt;GAIA&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;verticalAlign=top;align=right;fontSize=30;dashed=1;rounded=1;arcSize=5;" vertex="1" parent="JCc4b1N-MqKZgjGnVyGB-1">
           <mxGeometry x="610" y="150" width="700" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="JCc4b1N-MqKZgjGnVyGB-4" value="소비자원&amp;nbsp;&lt;div&gt;내부 시스템&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=middle;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=20;" vertex="1" parent="JCc4b1N-MqKZgjGnVyGB-1">
-          <mxGeometry x="430" y="610" width="296" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="JCc4b1N-MqKZgjGnVyGB-5" value="Elasticsearch Cluster (ELK)" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;fillColor=#d0cee2;strokeColor=#56517e;fontSize=20;" vertex="1" parent="JCc4b1N-MqKZgjGnVyGB-1">
           <mxGeometry x="660" y="205" width="309" height="160" as="geometry" />
         </mxCell>
@@ -1997,8 +1994,10 @@
         <mxCell id="JCc4b1N-MqKZgjGnVyGB-10" value="AI 에이전트&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.server_rack;fontStyle=1;fontSize=20;" vertex="1" parent="JCc4b1N-MqKZgjGnVyGB-1">
           <mxGeometry x="460" y="256" width="59" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JCc4b1N-MqKZgjGnVyGB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="JCc4b1N-MqKZgjGnVyGB-1" source="JCc4b1N-MqKZgjGnVyGB-12" target="JCc4b1N-MqKZgjGnVyGB-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="JCc4b1N-MqKZgjGnVyGB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="JCc4b1N-MqKZgjGnVyGB-1" source="JCc4b1N-MqKZgjGnVyGB-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="578" y="610" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="JCc4b1N-MqKZgjGnVyGB-12" value="MCP Server" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.server_rack;fontStyle=1;fontSize=20;" vertex="1" parent="JCc4b1N-MqKZgjGnVyGB-1">
           <mxGeometry x="460" y="509.25" width="59" height="60" as="geometry" />
@@ -2128,6 +2127,15 @@
               <mxPoint x="580" y="470" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hRTtD6SktegUdFK9y7FM-4" value="" style="group" vertex="1" connectable="0" parent="JCc4b1N-MqKZgjGnVyGB-1">
+          <mxGeometry x="514" y="610" width="130" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTtD6SktegUdFK9y7FM-2" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="hRTtD6SktegUdFK9y7FM-4">
+          <mxGeometry width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTtD6SktegUdFK9y7FM-3" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.oracle;fillColor=#FF0000;strokeColor=none" vertex="1" parent="hRTtD6SktegUdFK9y7FM-4">
+          <mxGeometry x="20" y="93" width="90" height="23" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
