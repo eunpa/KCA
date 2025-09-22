@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3" pages="9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3" pages="10">
   <diagram id="32T0Gw7uVyQyOAUjCHmI" name="공정위_전체">
     <mxGraphModel dx="3565" dy="1858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1472,6 +1472,65 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram name="Copy of 개념구성" id="m8yTz7fyUfb4zHFtaQqE">
+    <mxGraphModel dx="1426" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="AqrlCFX7mF62vmoOLylZ-0" />
+        <mxCell id="AqrlCFX7mF62vmoOLylZ-1" parent="AqrlCFX7mF62vmoOLylZ-0" />
+        <mxCell id="AqrlCFX7mF62vmoOLylZ-2" value="Agent Builder" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;fontSize=13;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+          <mxGeometry x="180.89" y="450" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AqrlCFX7mF62vmoOLylZ-20" value="미들웨어" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;align=center;fontSize=13;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+          <mxGeometry x="180.89" y="540" width="499.11" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AqrlCFX7mF62vmoOLylZ-23" value="AI Agent" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;align=center;fontSize=13;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+          <mxGeometry x="180.89" y="330" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="AqrlCFX7mF62vmoOLylZ-32" value="AI 분쟁조정사건처리 지원 시스템" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+          <mxGeometry x="40" y="280" width="780" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AqrlCFX7mF62vmoOLylZ-33" value="사업자 확인" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/Bot_Services.svg;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+          <mxGeometry x="220.89" y="366" width="68" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="AqrlCFX7mF62vmoOLylZ-34" value="AI 어드바이저" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/Bot_Services.svg;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+          <mxGeometry x="312.89" y="366" width="68" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="AqrlCFX7mF62vmoOLylZ-35" value="법적용 가이드" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/Bot_Services.svg;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+          <mxGeometry x="400.8899999999999" y="366" width="68" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="AqrlCFX7mF62vmoOLylZ-36" value="사건보고서" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/Bot_Services.svg;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+          <mxGeometry x="490.8899999999999" y="366" width="68" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="AqrlCFX7mF62vmoOLylZ-37" value="조정결정서" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/Bot_Services.svg;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+          <mxGeometry x="580.8899999999999" y="366" width="68" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="uFnh9hwyl4SJ9f63v34F-0" value="VectorDB&lt;div&gt;(ES)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+          <mxGeometry x="202" y="570" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uFnh9hwyl4SJ9f63v34F-1" value="LLMOps(GAIA)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+          <mxGeometry x="320" y="570" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uFnh9hwyl4SJ9f63v34F-2" value="Uvicorn" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+          <mxGeometry x="440" y="570" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uFnh9hwyl4SJ9f63v34F-3" value="Tomcat" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+          <mxGeometry x="560" y="570" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uFnh9hwyl4SJ9f63v34F-4" value="LangChain" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+          <mxGeometry x="202" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uFnh9hwyl4SJ9f63v34F-5" value="LangGraph" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+          <mxGeometry x="320" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uFnh9hwyl4SJ9f63v34F-6" value="데이터 레이크" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;align=center;fontSize=13;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+          <mxGeometry x="700" y="450" width="100" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="uFnh9hwyl4SJ9f63v34F-7" value="Ubuntu 24.04" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;align=center;fontSize=13;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+          <mxGeometry x="180.45" y="630" width="499.11" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="WUR1WHNa9w_yshezFaok" name="시스템 구성">
     <mxGraphModel dx="2037" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1746,7 +1805,7 @@
         <mxCell id="bsPxZ1YdRyHwHouMZp6j-2" value="소비자원&amp;nbsp;&lt;div&gt;내부 시스템&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=middle;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="430" y="610" width="296" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bsPxZ1YdRyHwHouMZp6j-3" value="Elasticsearch Cluster (EKS)" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;fillColor=#d0cee2;strokeColor=#56517e;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="bsPxZ1YdRyHwHouMZp6j-3" value="Elasticsearch Cluster (ELK)" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;fillColor=#d0cee2;strokeColor=#56517e;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="660" y="160" width="309" height="250" as="geometry" />
         </mxCell>
         <mxCell id="bsPxZ1YdRyHwHouMZp6j-4" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;fontSize=20;" edge="1" parent="1" source="bsPxZ1YdRyHwHouMZp6j-32" target="bsPxZ1YdRyHwHouMZp6j-3">
@@ -1805,22 +1864,13 @@
           <mxGeometry x="240" y="619.25" width="79" height="61.5" as="geometry" />
         </mxCell>
         <mxCell id="bsPxZ1YdRyHwHouMZp6j-21" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;VectorDB&lt;/span&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.server_rack;fontStyle=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="697" y="310" width="59" height="60" as="geometry" />
+          <mxGeometry x="700" y="201.5" width="59" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bsPxZ1YdRyHwHouMZp6j-22" value="VectorDB" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.server_rack;fontStyle=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="786" y="200" width="59" height="60" as="geometry" />
+          <mxGeometry x="791" y="201.5" width="59" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bsPxZ1YdRyHwHouMZp6j-23" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;VectorDB&lt;/span&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.server_rack;fontStyle=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="877" y="310" width="59" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bsPxZ1YdRyHwHouMZp6j-24" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;" edge="1" parent="1" source="bsPxZ1YdRyHwHouMZp6j-21" target="bsPxZ1YdRyHwHouMZp6j-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bsPxZ1YdRyHwHouMZp6j-25" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;" edge="1" parent="1" source="bsPxZ1YdRyHwHouMZp6j-22" target="bsPxZ1YdRyHwHouMZp6j-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bsPxZ1YdRyHwHouMZp6j-26" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;" edge="1" parent="1" source="bsPxZ1YdRyHwHouMZp6j-21" target="bsPxZ1YdRyHwHouMZp6j-23">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="880" y="201.5" width="59" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bsPxZ1YdRyHwHouMZp6j-27" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;" edge="1" parent="1" source="bsPxZ1YdRyHwHouMZp6j-5" target="bsPxZ1YdRyHwHouMZp6j-32">
           <mxGeometry relative="1" as="geometry">
