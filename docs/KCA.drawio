@@ -1477,13 +1477,13 @@
       <root>
         <mxCell id="AqrlCFX7mF62vmoOLylZ-0" />
         <mxCell id="AqrlCFX7mF62vmoOLylZ-1" parent="AqrlCFX7mF62vmoOLylZ-0" />
-        <mxCell id="AqrlCFX7mF62vmoOLylZ-2" value="Agent Builder" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;fontSize=13;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+        <mxCell id="AqrlCFX7mF62vmoOLylZ-2" value="AI Agent Workflow Layer" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;fontSize=13;align=left;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
           <mxGeometry x="180.89" y="450" width="500" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="AqrlCFX7mF62vmoOLylZ-20" value="미들웨어" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;align=center;fontSize=13;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+        <mxCell id="AqrlCFX7mF62vmoOLylZ-20" value="Middleware Layer" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;align=left;fontSize=13;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
           <mxGeometry x="180.89" y="540" width="499.11" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="AqrlCFX7mF62vmoOLylZ-23" value="AI Agent" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;align=center;fontSize=13;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+        <mxCell id="AqrlCFX7mF62vmoOLylZ-23" value="Application Layser" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;align=left;fontSize=13;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
           <mxGeometry x="180.89" y="330" width="500" height="110" as="geometry" />
         </mxCell>
         <mxCell id="AqrlCFX7mF62vmoOLylZ-32" value="AI 분쟁조정사건처리 지원 시스템" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
@@ -1522,11 +1522,11 @@
         <mxCell id="uFnh9hwyl4SJ9f63v34F-5" value="LangGraph" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
           <mxGeometry x="320" y="480" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uFnh9hwyl4SJ9f63v34F-6" value="데이터 레이크" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;align=center;fontSize=13;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+        <mxCell id="uFnh9hwyl4SJ9f63v34F-6" value="Data Lake" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;align=center;fontSize=13;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
           <mxGeometry x="700" y="450" width="100" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="uFnh9hwyl4SJ9f63v34F-7" value="Ubuntu 24.04" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;align=center;fontSize=13;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
-          <mxGeometry x="180.45" y="630" width="499.11" height="30" as="geometry" />
+        <mxCell id="uFnh9hwyl4SJ9f63v34F-7" value="OS Layer (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ubuntu 24.04)&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;align=left;fontSize=13;" vertex="1" parent="AqrlCFX7mF62vmoOLylZ-1">
+          <mxGeometry x="180.45" y="630" width="499.11" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
