@@ -1847,7 +1847,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bsPxZ1YdRyHwHouMZp6j-32" value="RAG 파이프라인(GPU)" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.server_rack;fontStyle=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1048" y="255" width="59" height="60" as="geometry" />
+          <mxGeometry x="1053" y="255" width="59" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bsPxZ1YdRyHwHouMZp6j-33" value="데이터 레이크 (NFS/S3)" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=middle;fillColor=#d0cee2;strokeColor=#56517e;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="747" y="610" width="619" height="80" as="geometry" />
