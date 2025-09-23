@@ -220,7 +220,7 @@
         <mxCell id="Vi-TNxajdv529q5Wi64L-3" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="280" y="620" width="45" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-TNxajdv529q5Wi64L-4" value="수딥 데이터" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.folder;fillColor=#FFCCCC;" vertex="1" parent="Vi-TNxajdv529q5Wi64L-3">
+        <mxCell id="Vi-TNxajdv529q5Wi64L-4" value="수집 데이터" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.folder;fillColor=#FFCCCC;" vertex="1" parent="Vi-TNxajdv529q5Wi64L-3">
           <mxGeometry width="40" height="35" as="geometry" />
         </mxCell>
         <mxCell id="Vi-TNxajdv529q5Wi64L-5" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.audio_file;" vertex="1" parent="Vi-TNxajdv529q5Wi64L-3">
